@@ -7,28 +7,28 @@
 5. Enjoy!
 
 ### Commands
-- `<leader>` = <space>
+- `<leader>` = `<space>`
 
 #### NvimTree
-|          |        |
+|    Key   |  Function    |
 |----------|--------|
-| <c-n>    | Open/Close file explorer |
-| <c-f>    | Focus file explorer |
+| `<c-n>`    | Open/Close file explorer |
+| `<c-f>`    | Focus file explorer |
 
 #### Autocompletion
-|          |        |
+|    Key   |  Function    |
 |----------|--------|
-| <Ctrl-n> | Select next item |
-| <Ctrl-p> | Select prev item |
-| <Ctrl-M-k> | Scroll docs (up) |
-| <Ctrl-space> | Show all table |
+| `<Ctrl-n>` | Select next item |
+| `<Ctrl-p>` | Select prev item |
+| `<Ctrl-M-k>` | Scroll docs (up) |
+| `<Ctrl-space>` | Show all table |
 
 #### Telescope
 On normal mode
 
-|          |        |
+|    Key   |  Function    |
 |----------|--------|
-| <leader>ff | Find files |
-| <leader>fg | Live grep |
-| <leader>fb | Show opened buffers (tabs) |
-| <leader>fh | Builtin helper tags |
+| `<leader>ff` | Find files |
+| `<leader>fg` | Live grep |
+| `<leader>fb` | Show opened buffers (tabs) |
+| `<leader>fh` | Builtin helper tags |
