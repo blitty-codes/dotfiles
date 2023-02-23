@@ -6,7 +6,29 @@
 4. Set the installed font on your terminal.
 5. Enjoy!
 
-### Commands
+## Nvim dependencies
+
+- (Nvim-tree)[https://github.com/nvim-tree/nvim-tree.lua] : File explorer.
+- (Lualine)[https://github.com/nvim-lualine/lualine.nvim] : Status line.
+- (Nvim-treesitter)[https://github.com/nvim-treesitter/nvim-treesitter] : Parsing generator tool + highlighting.
+- (Telescope)[https://github.com/nvim-telescope/telescope.nvim] : Fuzzy finder.
+- (Nvim-lspconfig)[https://github.com/neovim/nvim-lspconfig] : Config for nvim LSP.
+- (Fidget)[https://github.com/j-hui/fidget.nvim] : nvim-lsp progress.
+- (Neodev)[https://github.com/folke/neodev.nvim] : Signature help, docs and completion.
+- (Mason)[https://github.com/williamboman/mason.nvim] : LSP, DAP, linters and formatters manager tool.
+- (Nvim-cmp)[https://github.com/hrsh7th/nvim-cmp] : Engine for LSP completion.
+- (LuaSnip)[https://github.com/L3MON4D3/LuaSnip] : Code snippets (less code to write :D).
+- (Indent-blankline)[https://github.com/lukas-reineke/indent-blankline.nvim] : Better UI.
+- (Instant)[https://github.com/jbyuki/instant.nvim] : Colaborative editing.
+
+#### Themes
+
+- (Gruvbox)[https://github.com/ellisonleao/gruvbox.nvim]
+- (Dracula)[https://github.com/Mofiqul/dracula.nvim]
+- (OneDark)[https://github.com/navarasu/onedark.nvim]
+
+## Nvim Commands
+
 - `<leader>` = `<space>`
 
 #### NvimTree
@@ -18,10 +40,9 @@
 #### Autocompletion
 |    Key   |  Function    |
 |----------|--------|
-| `<Ctrl-n>` | Select next item |
-| `<Ctrl-p>` | Select prev item |
-| `<Ctrl-M-k>` | Scroll docs (up) |
-| `<Ctrl-space>` | Show all table |
+| `<Tab>` | Select next item |
+| `<shoft><Tab>` | Select prev item |
+| `<Ctrl-d>` | Autocomplete |
 
 #### Telescope
 On normal mode
