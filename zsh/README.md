@@ -31,7 +31,7 @@ Some [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins).
 The ones that are used in this configuration are:
 
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+- [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
 - [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) (Is in conf as default)
 
 To install these plugins or other ones, you have to clone the repository into `.oh-my-zsh/plugins`. Search on the repository for information about the installation on `zsh` and it will be easier. Next step is to add it into `plugins` variable. Example._ `plugins=(zsh-syntax-highlighting zsh-autosuggestions git)`.
