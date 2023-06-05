@@ -34,7 +34,7 @@ The ones that are used in this configuration are:
 - [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
 - [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) (Is in conf as default)
 
-To install these plugins or other ones, you have to clone the repository into `.oh-my-zsh/plugins`. Search on the repository for information about the installation on `zsh` and it will be easier. Next step is to add it into `plugins` variable. Example._ `plugins=(zsh-syntax-highlighting zsh-autosuggestions git)`.
+To install these plugins or other ones, you have to clone the repository into `$ZSH_CUSTOM/plugins`. Search on the repository for information about the installation on `zsh` and it will be easier. Next step is to add it into `plugins` variable. Example._ `plugins=(zsh-syntax-highlighting zsh-autocomplete git)`.
 
 ## Using this custom conf
 
@@ -42,6 +42,12 @@ To install these plugins or other ones, you have to clone the repository into `.
 2. `cp .zshrc $HOME` (Copy this custom configuration on your local).
 3. `source $HOME/.zshrc` (To apply changes).
 
+## Other programs
+
+- [todo-cli](https://github.com/blitty-codes/todo-cli)
+
 ## Resources
 
 - [oh-my-zsh docs](https://ohmyz.sh/)
+
+
